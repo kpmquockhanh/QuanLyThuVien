@@ -36,7 +36,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.txtContent = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnE = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel1
@@ -92,7 +92,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(147, 131);
+            this.button2.Location = new System.Drawing.Point(68, 131);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 100);
             this.button2.TabIndex = 4;
@@ -108,6 +108,7 @@
             this.button1.Size = new System.Drawing.Size(40, 40);
             this.button1.TabIndex = 4;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtContent
             // 
@@ -125,17 +126,18 @@
             this.txtContent.Text = "Bạn có muốn xóa không?";
             this.txtContent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button3
+            // btnE
             // 
-            this.button3.BackgroundImage = global::GUI.Properties.Resources._614397_x_512;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(253, 131);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 100);
-            this.button3.TabIndex = 4;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnE.BackgroundImage = global::GUI.Properties.Resources.e52_512;
+            this.btnE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnE.FlatAppearance.BorderSize = 0;
+            this.btnE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE.Location = new System.Drawing.Point(214, 131);
+            this.btnE.Name = "btnE";
+            this.btnE.Size = new System.Drawing.Size(100, 100);
+            this.btnE.TabIndex = 4;
+            this.btnE.UseVisualStyleBackColor = true;
+            this.btnE.Click += new System.EventHandler(this.btnE_Click);
             // 
             // mbConf
             // 
@@ -144,7 +146,7 @@
             this.ClientSize = new System.Drawing.Size(394, 243);
             this.Controls.Add(this.txtContent);
             this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnE);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel4);
@@ -173,6 +175,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.TextBox txtContent;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnE;
     }
 }

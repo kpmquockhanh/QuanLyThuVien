@@ -93,12 +93,6 @@
     <Compile Include="frmReader.Designer.cs">
       <DependentUpon>frmReader.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSearchBook.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSearchBook.Designer.cs">
-      <DependentUpon>frmSearchBook.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmStaff.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,9 +111,6 @@
     <Compile Include="mbErr.Designer.cs">
       <DependentUpon>mbErr.cs</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAuthor.resx">
@@ -146,9 +137,6 @@
     <EmbeddedResource Include="frmReader.resx">
       <DependentUpon>frmReader.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSearchBook.resx">
-      <DependentUpon>frmSearchBook.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmStaff.resx">
       <DependentUpon>frmStaff.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,10 +146,6 @@
     <EmbeddedResource Include="mbErr.resx">
       <DependentUpon>mbErr.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\GUI.frmBook.resources" />
-    <EmbeddedResource Include="obj\Debug\GUI.frmLogin.resources" />
-    <EmbeddedResource Include="obj\Debug\GUI.frmSearchBook.resources" />
-    <EmbeddedResource Include="obj\Debug\GUI.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -172,14 +156,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="bin\Debug\GUI.exe.config" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\GUI.csproj.CopyComplete" />
-    <None Include="obj\Debug\GUI.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\GUI.csproj.GenerateResource.Cache" />
-    <None Include="obj\Debug\GUI.csprojResolveAssemblyReference.cache" />
-    <None Include="obj\Release\GUI.csproj.CoreCompileInputs.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -208,17 +184,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\BUS.dll" />
-    <Content Include="bin\Debug\BUS.pdb" />
-    <Content Include="bin\Debug\DAO.dll" />
-    <Content Include="bin\Debug\DAO.pdb" />
-    <Content Include="bin\Debug\DTO.dll" />
-    <Content Include="bin\Debug\DTO.pdb" />
-    <Content Include="bin\Debug\GUI.exe" />
-    <Content Include="bin\Debug\GUI.pdb" />
-    <Content Include="obj\Debug\GUI.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\GUI.exe" />
-    <Content Include="obj\Debug\GUI.pdb" />
+    <None Include="Resources\maximize-2-512.png" />
+    <None Include="Resources\cross-512.png" />
+    <None Include="Resources\basic2-286_full_screen_maximize-512.png" />
+    <None Include="Resources\757_-_Minus-512.png" />
+    <None Include="Resources\004-Minus-512.png" />
     <None Include="Resources\Remove-128.png" />
     <None Include="Resources\OK-128.png" />
     <None Include="Resources\icon.png" />
@@ -227,9 +197,6 @@
     <None Include="Resources\614397-x-512.png" />
     <None Include="Resources\614338-.svg-512.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\Release\" />
-    <Folder Include="obj\Debug\TempPE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

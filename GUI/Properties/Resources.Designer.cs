@@ -63,6 +63,16 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _004_Minus_512 {
+            get {
+                object obj = ResourceManager.GetObject("_004_Minus_512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _614338__svg_512 {
             get {
                 object obj = ResourceManager.GetObject("_614338__svg_512", resourceCulture);
@@ -83,6 +93,36 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _757___Minus_512 {
+            get {
+                object obj = ResourceManager.GetObject("_757___Minus_512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap basic2_286_full_screen_maximize_512 {
+            get {
+                object obj = ResourceManager.GetObject("basic2_286_full_screen_maximize_512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cross_512 {
+            get {
+                object obj = ResourceManager.GetObject("cross_512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap e52_512 {
             get {
                 object obj = ResourceManager.GetObject("e52_512", resourceCulture);
@@ -96,6 +136,16 @@ namespace GUI.Properties {
         internal static System.Drawing.Bitmap icon {
             get {
                 object obj = ResourceManager.GetObject("icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maximize_2_512 {
+            get {
+                object obj = ResourceManager.GetObject("maximize_2_512", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

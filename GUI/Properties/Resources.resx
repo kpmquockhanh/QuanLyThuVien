@@ -2229,4 +2229,19 @@
   <data name="Remove_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Remove-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="basic2_286_full_screen_maximize_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basic2-286_full_screen_maximize-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximize_2_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximize-2-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_004_Minus_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\004-Minus-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_757___Minus_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\757_-_Minus-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

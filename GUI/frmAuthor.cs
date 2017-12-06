@@ -108,11 +108,6 @@ namespace GUI
             }
         }
 
-        private void txtAuthorID_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtAuthorID_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
@@ -137,35 +132,9 @@ namespace GUI
             { }
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void btnExit2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lb_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-
-        private void frmAuthor_Load_1(object sender, EventArgs e)
-        {
-
+            btnExit_Click(sender, e);
         }
     }
 }

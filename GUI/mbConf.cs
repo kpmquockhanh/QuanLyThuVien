@@ -12,9 +12,26 @@ namespace GUI
 {
     public partial class mbConf : Form
     {
-        public mbConf()
+        public DialogResult result = DialogResult.Cancel;
+        public mbConf(String title, String content)
         {
+
             InitializeComponent();
+            lblTitle.Text = title;
+            txtContent.Text = content;
+            lblTitle.Location = new Point((this.Width - lblTitle.Width) / 2, lblTitle.Height);
+            this.ShowDialog();
+            result = DialogResult.Cancel;
+
+        }
+        private void btnE_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
