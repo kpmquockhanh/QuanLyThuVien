@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A6AC432-80F9-45D7-A3F3-C83EA910A485}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAuthor.Designer.cs">
+      <DependentUpon>frmAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBook.Designer.cs">
+      <DependentUpon>frmBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBorrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBorrow.Designer.cs">
+      <DependentUpon>frmBorrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCard.Designer.cs">
+      <DependentUpon>frmCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPublisher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPublisher.Designer.cs">
+      <DependentUpon>frmPublisher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReader.Designer.cs">
+      <DependentUpon>frmReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearchBook.Designer.cs">
+      <DependentUpon>frmSearchBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStaff.Designer.cs">
+      <DependentUpon>frmStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mbConf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mbConf.Designer.cs">
+      <DependentUpon>mbConf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mbErr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mbErr.Designer.cs">
+      <DependentUpon>mbErr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAuthor.resx">
+      <DependentUpon>frmAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBook.resx">
+      <DependentUpon>frmBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBorrow.resx">
+      <DependentUpon>frmBorrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCard.resx">
+      <DependentUpon>frmCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPublisher.resx">
+      <DependentUpon>frmPublisher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReader.resx">
+      <DependentUpon>frmReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchBook.resx">
+      <DependentUpon>frmSearchBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStaff.resx">
+      <DependentUpon>frmStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mbConf.resx">
+      <DependentUpon>mbConf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mbErr.resx">
+      <DependentUpon>mbErr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\GUI.frmBook.resources" />
+    <EmbeddedResource Include="obj\Debug\GUI.frmLogin.resources" />
+    <EmbeddedResource Include="obj\Debug\GUI.frmSearchBook.resources" />
+    <EmbeddedResource Include="obj\Debug\GUI.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug\GUI.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\GUI.csproj.CopyComplete" />
+    <None Include="obj\Debug\GUI.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\GUI.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\GUI.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\GUI.csproj.CoreCompileInputs.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{34b1e54b-53fc-4f3a-a62e-dfc73525b7ae}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{12DCFFC7-707E-470C-B6F6-77C102252F92}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{1ecddfe1-6d43-49f1-970a-15d1c5911295}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BUS.dll" />
+    <Content Include="bin\Debug\BUS.pdb" />
+    <Content Include="bin\Debug\DAO.dll" />
+    <Content Include="bin\Debug\DAO.pdb" />
+    <Content Include="bin\Debug\DTO.dll" />
+    <Content Include="bin\Debug\DTO.pdb" />
+    <Content Include="bin\Debug\GUI.exe" />
+    <Content Include="bin\Debug\GUI.pdb" />
+    <Content Include="obj\Debug\GUI.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\GUI.exe" />
+    <Content Include="obj\Debug\GUI.pdb" />
+    <None Include="Resources\Remove-128.png" />
+    <None Include="Resources\OK-128.png" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\OK_02-512.png" />
+    <None Include="Resources\e52-512.png" />
+    <None Include="Resources\614397-x-512.png" />
+    <None Include="Resources\614338-.svg-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
